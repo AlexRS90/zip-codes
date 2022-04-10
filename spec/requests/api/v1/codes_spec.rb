@@ -7,7 +7,7 @@ RSpec.describe 'api/v1/codes', type: :request do
     parameter name: 'zip_code', in: :path, type: :string, description: 'zip_code'
 
     get('show code') do
-      response(200, 'successful') do
+      response(404, 'not found') do
         let(:zip_code) { '123' }
 
         after do |example|
