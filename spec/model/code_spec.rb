@@ -23,7 +23,7 @@ RSpec.describe Code, type: :model do
   end
 
   it 'has 1 record' do
-    expect(Code.count).to eq(51_988)
+    expect(Code.count).to eq(1)
   end
 
   it 'expects locality to not be empty' do
