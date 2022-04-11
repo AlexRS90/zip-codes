@@ -46,7 +46,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 5.1.1'
 end
 
-gorup :production do
+group :production do
   # Use postgresql as the database for Active Record
   gem 'pg', '~> 1.1'
 end
