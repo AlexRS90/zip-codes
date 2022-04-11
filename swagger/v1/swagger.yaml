@@ -21,4 +21,4 @@ servers:
 - url: http://{defaultHost}
   variables:
     defaultHost:
-      default: mex-zip-codes.herokuapp.com
+      default: mexican-zip-codes.herokuapp.com
