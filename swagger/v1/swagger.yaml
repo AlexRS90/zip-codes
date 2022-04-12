@@ -21,4 +21,4 @@ servers:
 - url: http://{defaultHost}
   variables:
     defaultHost:
-      default: mexican-zip-codes.herokuapp.com
+      default: localhost:3000
